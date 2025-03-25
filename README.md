@@ -1,69 +1,77 @@
-# Welcome to your Lovable project
+📚 Learnquest - Knowledge Analyzer Pro An AI-powered study tool for extracting, summarizing, and analyzing text from documents and images.
 
-## Project info
+🚀 Features 📸 OCR Processing – Capture text from scanned documents.
 
-**URL**: https://lovable.dev/projects/6ee684b6-ccfb-4a21-850c-a7e5491e99a0
+📂 File Upload Support – Analyze PDF, DOC, DOCX, and TXT files.
 
-## How can I edit this code?
+📑 Automated Summarization – Generate professional summaries.
 
-There are several ways of editing your application.
+🧠 Mind Map Generation – Convert content into a structured knowledge graph.
 
-**Use Lovable**
+📅 Study Plan Creator – Generate structured study plans.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6ee684b6-ccfb-4a21-850c-a7e5491e99a0) and start prompting.
+🔊 AI Narration – Listen to generated summaries in audio format.
 
-Changes made via Lovable will be committed automatically to this repo.
+🎓 Quiz & Discussion Simulations – Engage in interactive learning.
 
-**Use your preferred IDE**
+🛠️ Technologies Used Frontend: React, TailwindCSS
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Backend: Node.js, Express
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+OCR Engine: Tesseract.js
 
-Follow these steps:
+Text Processing: AI-based NLP models
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Speech Synthesis: Web Speech API
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+💻 Installation & Setup Prerequisites Node.js (v16+)
 
-# Step 3: Install the necessary dependencies.
-npm i
+npm or yarn
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Steps Clone the repository:
 
-**Edit a file directly in GitHub**
+bash Copy Edit git clone https://github.com/your-repo/knowledge-analyzer-pro.git cd knowledge-analyzer-pro Install dependencies:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+bash Copy Edit npm install # or yarn install Start the development server:
 
-**Use GitHub Codespaces**
+bash Copy Edit npm start # or yarn start Open http://localhost:8080/study-groups in your browser.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+📸 How It Works Upload a document (PDF, DOC, DOCX, TXT) or scan a physical document using OCR.
 
-## What technologies are used for this project?
+The AI extracts and analyzes text, generating summaries, study plans, and mind maps.
 
-This project is built with .
+Engage in interactive learning with quizzes, discussions, and AI-generated audio summaries.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+🎯 Usage 📂 Uploading Documents Click on the "Upload Document" button.
 
-## How can I deploy this project?
+Supported formats: .pdf, .doc, .docx, .txt.
 
-Simply open [Lovable](https://lovable.dev/projects/6ee684b6-ccfb-4a21-850c-a7e5491e99a0) and click on Share -> Publish.
+📸 Scanning Documents Click "Scan Physical Document" to open the webcam.
 
-## I want to use a custom domain - is that possible?
+Capture an image, and the OCR engine will extract text for processing.
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+📖 Generating Study Material The AI automatically generates:
+
+A summary
+
+A structured study plan
+
+A concept mind map
+
+Audio narration of key points
+
+🎓 Taking a Quiz Click "Start Quiz" to test your knowledge on the extracted content.
+
+🗣️ Practicing Discussions Click "Start Discussion" to simulate debates and critical thinking exercises.
+
+🔧 Troubleshooting If OCR processing fails, ensure:
+
+The image is clear and well-lit.
+
+The text is not too small or blurry.
+
+If audio narration fails, check browser compatibility with the Speech Synthesis API.
+
+📜 License This project is licensed under the MIT License.
+
+🤝 Contributing Want to improve this project? Fork the repo, make changes, and submit a pull request!
